@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header h1{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    color: #333333;
+    margin: 40px 77px;
+}
+
+
+main {
+    margin-top: 87px;
+    margin-right: 119px;
+    margin-bottom: 129px;
+    margin-left: 77px;
+
+    font-family: 'Space Mono';
+}
+.container{
+    display: flex;
+}
+main img{
+    width: 539px;
+    height: 447;
+    margin-right: 118px;
+}
+main h2{
+    width: 586px;
+    font-size: 64px;
+    color: #333333;
+    margin-bottom: 36px;
+    
+}
+main p{
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 86px;
+}
+main a{
+    font-size: 14px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 24px 43px;
+    margin-top: 64px;
+}
+
+
+footer{
+    margin: 0px;
+    text-align: center;
+}
+footer > p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #BDBDBD;
+}
+footer strong{
+    text-decoration: underline;
+}
+footer a{
+    color: #BDBDBD;
+}
